@@ -1,4 +1,4 @@
-﻿# Portal submission draft
+# Portal submission draft
 
 ## Category
 
@@ -13,9 +13,9 @@ Agent Card Conformance Gate is a reusable GenLayer primitive for evidence-backed
 - Public source repository: https://github.com/Fan-Yu0/genlayer-agent-card-gate
 - Agent card: https://raw.githubusercontent.com/Fan-Yu0/genlayer-agent-card-gate/main/examples/agent-card.json
 - Registry policy: https://raw.githubusercontent.com/Fan-Yu0/genlayer-agent-card-gate/main/examples/registry-policy.md
-- Contract: `TBD`
-- Deployment transaction: `TBD`
-- Assessment transaction: `TBD`
+- Contract: `0xF6313760bfb797CB05c5879Ebb6076054B938a3a`
+- Deployment transaction: `0x08f1e342bf5c96da8b6f4de70cd4fa187dd450c27193fe78dc4704b41132954f`
+- Assessment transaction: `0x8dc5f1576142efbb8c3b2f02c3f9fc47a2454e96ee2d4e640245a4aea732db36`
 
 ## First live example
 
