@@ -1,0 +1,40 @@
+﻿{
+  "name": "triage-agent",
+  "description": "An A2A agent that triages support tickets and proposes routing decisions.",
+  "version": "1.0.0",
+  "url": "https://agents.example.com/a2a",
+  "preferredTransport": "JSONRPC",
+  "capabilities": {
+    "streaming": true,
+    "pushNotifications": true,
+    "stateTransitionHistory": true
+  },
+  "defaultInputModes": ["text/plain", "application/json"],
+  "defaultOutputModes": ["text/plain", "application/json"],
+  "skills": [
+    {
+      "id": "ticket-triage",
+      "name": "Ticket triage",
+      "description": "Classifies and routes support tickets.",
+      "tags": ["support", "triage"]
+    }
+  ],
+  "securitySchemes": {
+    "oauth2": {
+      "type": "oauth2",
+      "flows": {
+        "clientCredentials": {
+          "tokenUrl": "https://auth.example.com/token",
+          "scopes": {
+            "agent.read": "Read agent tasks"
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "oauth2": ["agent.read"]
+    }
+  ]
+}
