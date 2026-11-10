@@ -1,0 +1,24 @@
+{
+  "account": "0x49DBB8a74053a77b9aAf6E11b8fFe6d821E9054A",
+  "contract": "0x2b944A1f674fBcb03fC9E251382b5D46BA077A1B",
+  "deploy_tx": "0x4376bdfe07c548e1bae45337c0dffebc4f8f86a784b83707fb1d466be6fada80",
+  "register_tx": "0xc320bb99f69ab6a404e1a9fe95fe27313a9cace0f7eda4d72a441bf5be5cc345",
+  "assess_tx": "0xfb8182e0ee5cef2f6874dec7370b15f1ba97ac54f09e9e6f2b6224c4b1cfecee",
+  "assessment": {
+    "agent_card_url": "https://raw.githubusercontent.com/Fan-Yu0/genlayer-agent-card-gate/main/examples/agent-card.json",
+    "agent_id": "triage-agent",
+    "auth_scheme": "none",
+    "capability_mask": 0,
+    "decision": 0,
+    "missing_capabilities": 13,
+    "policy_url": "https://raw.githubusercontent.com/Fan-Yu0/genlayer-agent-card-gate/main/examples/registry-policy.md",
+    "publisher": "0x49DBB8a74053a77b9aAf6E11b8fFe6d821E9054A",
+    "require_auth": true,
+    "required_capabilities": 13,
+    "round": 0,
+    "source_consistency": "insufficient",
+    "state": 0,
+    "summary": "",
+    "transport_secure": false
+  }
+}
